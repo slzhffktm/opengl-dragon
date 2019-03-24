@@ -1,7 +1,6 @@
-//include header file for glfw library so that we can use OpenGL
-#define GLFW_DLL
-#include "../glfw-3.2.1/include/GLFW/glfw3.h"
-#include <stdlib.h>  //needed for exit function
+#include <GL/glew.h>
+#include <GL/glfw3.h>
+#include <stdlib.h>
 #include <iostream>
 using namespace std;
 
@@ -10,45 +9,56 @@ void error_callback(int error, const char* description)
     fprintf(stderr, "Error: %s\n", description);
 }
 
-void draw_pentagon() {
-    glClearColor (1.0f, 1.0f, 1.0f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    glPointSize(10);
-    glLineWidth(2.5);
-    glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-    glColor3d(0.0, 0.0, 1.0);
-    glBegin(GL_POLYGON);
-    glVertex3f(300.0,300.0,0.0);
-    glVertex3f(500.0,300.0,0.0);
-    glVertex3f(600.0,400.0,0.0);
-    glVertex3f(400.0,500.0,0.0);
-    glVertex3f(200.0,400.0,0.0);
-    glVertex3f(300.0,300.0,0.0);
-    glEnd();
+GLFWwindow* initialize_window() {
+    glewExperimental = true; // Needed for core profile
+    if( !glfwInit() )
+    {
+        fprintf( stderr, "Failed to initialize GLFW\n" );
+    }
+    glfwSetErrorCallback(error_callback);
+
+    glfwWindowHint(GLFW_SAMPLES, 4); // 4x antialiasing
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3); // We want OpenGL 3.3
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // To make MacOS happy; should not be needed
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // We don't want the old OpenGL
+
+    // Open a window and create its OpenGL context
+    GLFWwindow* window; // (In the accompanying source code, this variable is global for simplicity)
+    window = glfwCreateWindow(1920, 1080, "Dragon", NULL, NULL);
+    if( window == NULL ){
+        fprintf( stderr, "Failed to open GLFW window. If you have an Intel GPU, they are not 3.3 compatible. Try the 2.1 version of the tutorials.\n" );
+        glfwTerminate();
+    }
+    glfwMakeContextCurrent(window); // Initialize GLEW
+    glewExperimental=true; // Needed in core profile
+    if (glewInit() != GLEW_OK) {
+        fprintf(stderr, "Failed to initialize GLEW\n");
+    }
+    // Ensure we can capture the escape key being pressed below
+    glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);
+
+    return window;
+}
+
+void draw_dragon_right() {
+    GLfloat g_vertex_buffer_data[] = {
+            -1.0f, -1.0f, 0.0f,
+            1.0f, -1.0f, 0.0f,
+            0.0f,  1.0f, 0.0f,
+    };
+}
+
+void draw_dragon() {
+
 }
 
 int main()
 {
-    if (!glfwInit())
-    {
-        printf("Error tak ada glfwnya\n");
-    }
-
-    glfwSetErrorCallback(error_callback);
-    GLFWwindow* window = glfwCreateWindow(1024, 1024, "My Title", NULL, NULL);
-    if (!window)
-    {
-        printf("Error: gagal bikin glfw window\n");
-    }
-
-    // Program
-    glfwMakeContextCurrent(window);
-    glOrtho(0.0f, 1024, 0.0f, 1024, 0.0f, 1.0f);
+    GLFWwindow* window = initialize_window();
 
     while (!glfwWindowShouldClose(window))
     {
-        // Draw gears
-        draw_pentagon();
 
         // Swap buffers
         glfwSwapBuffers(window);

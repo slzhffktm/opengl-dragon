@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="dragon" targetName="pentagon" />
+      <config projectName="dragon" targetName="dragon" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -11,7 +11,274 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff0f40cc-c430-4c9d-85d1-3655d406441a" name="Default Changelist" comment="" />
+    <list default="true" id="ff0f40cc-c430-4c9d-85d1-3655d406441a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glew32.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/COPYING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/annotated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/arrowdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/arrowright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/bc_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/bdwn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/bug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/build_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/build_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/compat_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/compat_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/compile_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/compile_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/context_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/context_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/dir_1f12d41534b9d9c99a183e145b58d6f3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/dir_351f617146de9499414a6c099ebbe0ca.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/dir_4bcf8e981abe5adb811ce4f57d70c9af.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/doxygen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/doxygen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/dynsections.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/extra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/folderclosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/folderopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/functions_vars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/glfw3_8h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/glfw3_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/glfw3native_8h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/glfw3native_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_g.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_i.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_j.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_k.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_l.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_o.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_p.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_r.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_s.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_defs_v.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_g.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_i.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_j.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_k.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_l.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_o.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_p.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_r.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_s.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_v.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/globals_w.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__errors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__init.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__joysticks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__keys.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__mods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__monitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__native.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__shapes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__vulkan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/group__window.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/input_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/input_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/intro_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/intro_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/main_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/modules.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/monitor_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/monitor_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/moving_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/moving_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/nav_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/nav_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/nav_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/news_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/pages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/quick_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/quick_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/all_f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/classes_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/classes_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/defines_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/defines_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/files_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/functions_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/functions_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/groups_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/mag_sel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/nomatches.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/pages_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/search_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/search_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/search_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/searchdata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/typedefs_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/typedefs_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/search/variables_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/spaces.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/splitbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/structGLFWgammaramp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/structGLFWimage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/structGLFWvidmode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/sync_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/sync_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/tab_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/tab_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/tab_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/tab_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/vulkan_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/vulkan_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/window_8dox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/docs/html/window_guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/include/GLFW/glfw3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/include/GLFW/glfw3native.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-mingw-w64/glfw3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-mingw-w64/libglfw3.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-mingw-w64/libglfw3dll.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-vc2012/glfw3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-vc2012/glfw3.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-vc2012/glfw3dll.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-vc2013/glfw3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-vc2013/glfw3.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-vc2013/glfw3dll.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-vc2015/glfw3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-vc2015/glfw3.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glfw-3.2.1/lib-vc2015/glfw3dll.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,16 +291,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+                <state relative-caret-position="23">
+                  <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#0#20#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="144">
@@ -67,8 +337,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Makefile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
-                  <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+                <state relative-caret-position="32">
+                  <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -83,13 +353,16 @@
       <find>glfwSetErrorCallback</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/glfw-3.2.1/Makefile" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -99,12 +372,23 @@
     <option name="width" value="1750" />
     <option name="height" value="1030" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dragon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dragon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -115,10 +399,10 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Grafika\pentagon" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Grafika\pentagon" />
     </key>
   </component>
@@ -155,18 +439,18 @@
       <workItem from="1553009944344" duration="2008000" />
       <workItem from="1553045570940" duration="576000" />
       <workItem from="1553048200501" duration="429000" />
-      <workItem from="1553424833461" duration="703000" />
+      <workItem from="1553424833461" duration="5921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10097000" />
+    <option name="totallyTimeSpent" value="15315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,7 +462,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.30294907" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32841823" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24262735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32841823" />
@@ -192,17 +476,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../glfw-3.2.1/include/GLFW/glfw3.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21856">
           <caret line="1366" column="41" selection-start-line="1366" selection-start-column="21" selection-end-line="1366" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -213,10 +497,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="23">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
