@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 *.exe
 
 .idea
 .vscode
+=======
+.idea
+.vscode
+*.exe
+>>>>>>> 7102f2493b21844fd689207e6c290dee2b52a96b
