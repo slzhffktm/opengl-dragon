@@ -1,3 +1,6 @@
+#define SCREEN_HEIGHT 1080
+#define SCREEN_WIDTH 1920
+
 #include <GL/glew.h>
 #include <GL/glfw3.h>
 #include <stdlib.h>
@@ -116,7 +119,7 @@ GLFWwindow *initialize_window() {
 
     // Open a window and create its OpenGL context
     GLFWwindow *window; // (In the accompanying source code, this variable is global for simplicity)
-    window = glfwCreateWindow(1920, 1080, "Dragon", NULL, NULL);
+    window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Dragon", NULL, NULL);
     if (window == NULL) {
         fprintf(stderr,
                 "Failed to open GLFW window. If you have an Intel GPU, they are not 3.3 compatible. Try the 2.1 version of the tutorials.\n");
@@ -135,9 +138,9 @@ GLFWwindow *initialize_window() {
 
 void draw_dragon_right() {
     GLfloat g_vertex_buffer_data[] = {
-            0, 0, 0,
-            500, 500, 0,
-            0, 100, 0,
+            0.0f / SCREEN_WIDTH, 0.0f / SCREEN_HEIGHT, 0,
+            500.0f / SCREEN_WIDTH, 500.0f / SCREEN_HEIGHT, 0,
+            0.0f / SCREEN_WIDTH, 100.0f / SCREEN_HEIGHT, 0,
     };
 
     // This will identify our vertex buffer
