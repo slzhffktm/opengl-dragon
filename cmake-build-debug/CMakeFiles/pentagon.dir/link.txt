@@ -1,3 +1,0 @@
-"D:\Programs\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\pentagon.dir/objects.a
-D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\pentagon.dir/objects.a @CMakeFiles\pentagon.dir\objects1.rsp
-D:\Programs\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\pentagon.dir/objects.a -Wl,--no-whole-archive  -o pentagon.exe -Wl,--out-implib,libpentagon.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pentagon.dir\linklibs.rsp
