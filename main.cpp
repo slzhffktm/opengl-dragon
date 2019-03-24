@@ -133,11 +133,17 @@ GLFWwindow *initialize_window() {
     return window;
 }
 
+void divide_by_screen_size(GLfloat vertices) {
+    for (int i = 0; i < 9; i++) {
+        
+    }
+}
+
 void draw_dragon_right() {
     GLfloat g_vertex_buffer_data[] = {
-            0, 0, 0,
-            500, 500, 0,
-            0, 100, 0,
+            0.5, 0.5, 0,
+            0, -0.5, 0,
+            0, 1, 0,
     };
 
     // This will identify our vertex buffer
