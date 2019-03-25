@@ -146,6 +146,10 @@ void divide_by_screen_size(GLfloat *vertices) {
     }
 }
 
+void draw_dragon_left() {
+    
+}
+
 void draw_dragon_right() {
     GLfloat vertex[] = {
             0, 0, 0,
