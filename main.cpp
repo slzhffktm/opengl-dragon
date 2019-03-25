@@ -169,9 +169,9 @@ void load(vector<vector<GLfloat>> &triangles, char* file_name) {
 void divide_by_screen_size(GLfloat *vertices) {
     for (int i = 0; i < 9; i++) {
         if (i % 3 == 0) {
-            vertices[i] = (float) vertices[i] / SCREEN_WIDTH;
+            vertices[i] = (float) -vertices[i] / SCREEN_WIDTH + 0.3f;
         } else if (i % 3 == 1) {
-            vertices[i] = (float) vertices[i] / SCREEN_HEIGHT;
+            vertices[i] = (float) -vertices[i] / SCREEN_HEIGHT + 0.5f;
         }
     }
 }
