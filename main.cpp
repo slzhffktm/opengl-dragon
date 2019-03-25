@@ -9,8 +9,14 @@
 #include <string>
 #include <sstream>
 #include <fstream>
+#include <algorithm>
+
+#include <rapidjson/document.h>
+#include <rapidjson/writer.h>
+#include <rapidjson/stringbuffer.h>
 
 using namespace std;
+using namespace rapidjson;
 
 GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path){
 
@@ -136,6 +142,30 @@ GLFWwindow *initialize_window() {
     return window;
 }
 
+void get_triangles_from_json(string json, vector<vector<GLfloat>> &triangles) {
+    Document document;
+    document.Parse<0>(json.c_str());
+
+    for (auto& arrays : document.GetArray()) {
+        vector<GLfloat> triangle = vector<GLfloat>();
+        for (auto& point : arrays.GetArray()) {
+            triangle.push_back(point.GetFloat());
+        }
+        triangles.push_back(triangle);
+    }
+}
+
+void load(vector<vector<GLfloat>> &triangles, char* file_name) {
+    ifstream in(file_name);
+    string json;
+    json.assign((istreambuf_iterator<char>(in)), istreambuf_iterator<char>());
+    json.erase(remove(json.begin(), json.end(), '\n'), json.end());
+
+    get_triangles_from_json(json, triangles);
+
+    cout << "Loaded." << endl;
+}
+
 void divide_by_screen_size(GLfloat *vertices) {
     for (int i = 0; i < 9; i++) {
         if (i % 3 == 0) {
@@ -146,44 +176,36 @@ void divide_by_screen_size(GLfloat *vertices) {
     }
 }
 
-void draw_dragon_left() {
-    
-}
+void draw_dragon(vector<vector<GLfloat>> triangles) {
+    for (auto& triangle : triangles) {
+        GLfloat* t = &triangle[0];
 
-void draw_dragon_right() {
-    GLfloat vertex[] = {
-            0, 0, 0,
-            500, 500, 0,
-            0, 100, 0,
-    };
-    divide_by_screen_size(vertex);
+        divide_by_screen_size(t);
+        // cout << triangle[0];
 
-    // This will identify our vertex buffer
-    GLuint vertexBuffer;
-    // Generate 1 buffer, put the resulting identifier in vertexbuffer
-    glGenBuffers(1, &vertexBuffer);
-    // The following commands will talk about our 'vertexbuffer' buffer
-    glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer);
-    // Give our vertices to OpenGL.
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertex), vertex, GL_STATIC_DRAW);
-    // 1st attribute buffer : vertices
-    glEnableVertexAttribArray(0);
-    glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer);
-    glVertexAttribPointer(
-            0,                  // attribute 0. No particular reason for 0, but must match the layout in the shader.
-            3,                  // size
-            GL_FLOAT,           // type
-            GL_FALSE,           // normalized?
-            0,                  // stride
-            (void*)0            // array buffer offset
-    );
-    // Draw the triangle !
-    glDrawArrays(GL_TRIANGLES, 0, 3); // Starting from vertex 0; 3 vertices total -> 1 triangle
-    glDisableVertexAttribArray(0);
-}
-
-void draw_dragon() {
-    draw_dragon_right();
+        // This will identify our vertex buffer
+        GLuint vertexBuffer;
+        // Generate 1 buffer, put the resulting identifier in vertexbuffer
+        glGenBuffers(1, &vertexBuffer);
+        // The following commands will talk about our 'vertexbuffer' buffer
+        glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer);
+        // Give our vertices to OpenGL.
+        glBufferData(GL_ARRAY_BUFFER, sizeof(t), t, GL_STATIC_DRAW);
+        // 1st attribute buffer : vertices
+        glEnableVertexAttribArray(0);
+        glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer);
+        glVertexAttribPointer(
+                0,                  // attribute 0. No particular reason for 0, but must match the layout in the shader.
+                3,                  // size
+                GL_FLOAT,           // type
+                GL_FALSE,           // normalized?
+                0,                  // stride
+                (void*)0            // array buffer offset
+        );
+        // Draw the triangle !
+        glDrawArrays(GL_TRIANGLES, 0, 3); // Starting from vertex 0; 3 vertices total -> 1 triangle
+        glDisableVertexAttribArray(0);
+    }
 }
 
 int main() {
@@ -195,10 +217,15 @@ int main() {
 
     // Create and compile our GLSL program from the shaders
     GLuint programID = LoadShaders( "SimpleVertexShader.vertexshader", "SimpleFragmentShader.fragmentshader" );
+
+    vector<vector<GLfloat>> triangles = vector<vector<GLfloat>>();
+    load(triangles, (char*) "dragon_left.json");
+    load(triangles, (char*) "dragon_right.json");
+
     while (!glfwWindowShouldClose(window)) {
         glClear(GL_COLOR_BUFFER_BIT);
         glUseProgram(programID);
-        draw_dragon();
+        draw_dragon(triangles);
 
         // Swap buffers
         glfwSwapBuffers(window);
