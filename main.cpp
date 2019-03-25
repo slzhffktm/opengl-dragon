@@ -178,11 +178,15 @@ void divide_by_screen_size(GLfloat *vertices) {
 
 void draw_dragon(vector<vector<GLfloat>> triangles) {
     for (auto& triangle : triangles) {
-        GLfloat* t = &triangle[0];
+        GLfloat t[9];
+        for (int i = 0; i < 9; i++) {
+            t[i] = triangle[i];
+        }
+        
+        
 
         divide_by_screen_size(t);
-        // cout << triangle[0];
-
+        
         // This will identify our vertex buffer
         GLuint vertexBuffer;
         // Generate 1 buffer, put the resulting identifier in vertexbuffer
